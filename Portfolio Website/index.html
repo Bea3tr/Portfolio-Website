@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22256%22 height=%22256%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2250%22 fill=%22%230058ff%22></rect><path fill=%22%23fff%22 d=%22M72.15 21.33L72.15 21.33Q74.49 22.50 74.90 25.02Q75.30 27.54 73.59 29.61L73.59 29.61Q72.42 31.23 70.58 31.41Q68.73 31.59 66.84 30.69L66.84 30.69Q64.68 29.70 62.30 29.16Q59.91 28.62 57.30 28.62L57.30 28.62Q52.44 28.62 48.62 30.15Q44.79 31.68 42.09 34.52Q39.39 37.35 38.00 41.22Q36.60 45.09 36.60 49.77L36.60 49.77Q36.60 55.26 38.18 59.31Q39.75 63.36 42.54 66.06Q45.33 68.76 49.11 70.07Q52.89 71.37 57.30 71.37L57.30 71.37Q59.73 71.37 62.16 70.92Q64.59 70.47 66.84 69.30L66.84 69.30Q68.73 68.40 70.58 68.67Q72.42 68.94 73.68 70.56L73.68 70.56Q75.48 72.81 74.99 75.20Q74.49 77.58 72.24 78.66L72.24 78.66Q69.90 79.83 67.43 80.60Q64.95 81.36 62.43 81.77Q59.91 82.17 57.30 82.17L57.30 82.17Q50.82 82.17 45.02 80.10Q39.21 78.03 34.67 73.98Q30.12 69.93 27.51 63.86Q24.90 57.78 24.90 49.77L24.90 49.77Q24.90 42.84 27.29 36.99Q29.67 31.14 34.04 26.87Q38.40 22.59 44.34 20.21Q50.28 17.82 57.30 17.82L57.30 17.82Q61.26 17.82 65.04 18.72Q68.82 19.62 72.15 21.33Z%22></path></svg>" />
+<meta charset="UTF-8">
+<meta http-equiv=“Pragma” content=”no-cache”>
+<meta http-equiv=“Expires” content=”-1″>
+<meta http-equiv=“CACHE-CONTROL” content=”NO-CACHE”>
+<!-- CSS Stylesheets -->
+<link rel="stylesheet" href="css/master.css">
+
+<title>Beatrice's Portfolio Website</title>
+</head>
+
+<nav>
+    <a href="#name">About Me</a>
+    <a href="#skills">Skills</a>
+    <a href="#work">Work Experience</a>
+    <a href="#school">Education</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<body>
+    <!--About Me-->
+    <section class="about-me">
+        <div id="pic"><img src="./demo_pic.png" alt="This is a picture of the website's creator"/></div>
+        <div id="desc">
+            <h1 class="hdr">Sim Le Yee Beatrice</h1>
+            <span id="major"> Electrical Engineering Undergraduate at NUS</span>
+            <p>
+                I am an undergraduate at NUS and I am expected to graduate with a Bachelor's Degree in July 2024. 
+                Throughout the course of my education, I have gained strong organisational skills as well as the 
+                passion to explore and work on projects that can increase and hone my technical skills.
+            </p>
+        </div>
+    </section>
+
+    <hr>   
+
+    <!--Skills-->
+    <section class="skills">
+        <h2 class="hdr">Technical Skills</h2>
+        <h3 class="hdr">Programming Languages</h3>
+        <div id="programs">
+            <span>Python</span>
+            <span>Java</span>
+            <span>JavaScript</span>
+            <span>HTML</span>
+            <span>CSS</span>
+        </div>
+        <h3 class="hdr">Softwares</h3>
+        <div id="software">
+            <span>Microsoft Office Suite</span>
+            <span>MATLAB</span>
+            <span>CAD</span>
+            <span>HYSYS</span>
+        </div>
+    </section>
+
+    <hr> 
+
+    <!--Work Experience-->
+    <section class="exp">
+        <h2 class="hdr">Work Experience</h2>
+        <h4>Insect Feed Technologies</h4>
+        <span>Automation Engineer Intern</span>
+        <ul>
+            <li>Collaborated with R&D team for effective understanding and strategizing of system flow through visualization tools in PowerPoint.</li>
+            <li>Discussed system requirements and processes with project managers and developers through 2D replication in AutoCAD for easier identification of bottlenecks.</li>
+            <li>Updated and maintained project documentations using data visualization and analysis tools in Excel for detailed recordkeeping and future reference.</li>
+            <li>Drafted 2D process flow diagrams through AutoCAD for effective communication with external vendors</li>
+        </ul>
+    </section>
+
+    <hr> 
+
+    <!--Education-->
+    <section class="edu">
+        <h2 class="hdr">Education</h2>
+        <h4>National University of Singapore</h4>
+        <h5>Bachelor of Engineering (Electrical Engineering)<br>
+            Expected Jul 2024
+        </h5>
+        <a class="nus" href="https://nus.edu.sg/" target="_blank">Visit NUS</a>
+    </section>
+
+    <hr>
+
+    <!--Additional Information-->
+    <section class="info">
+        <h2 class="hdr">Contact</h2>
+        <p>Email: 
+        <a href="mailto:beatricesim31@gmail.com" target="_blank">beatricesim31@gmail.com</a>
+        <br>
+        LinkedIn:
+        <a href="https://www.linkedin.com/in/simleyeebeatrice/" target="_blank">Sim Le Yee Beatrice</a>
+        </p>
+    </section>
+
+    <hr>
+
+    <!--User Interaction-->
+    <section>
+        <h2 class="hdr">Change The Webpage To Your Liking!</h2>
+
+        <div class="selector">
+            <label for="bgColor">
+                Background: 
+            </label>
+            <select id="bgColor" class="box" onchange="bkgrndColor()">
+                <option value="">--Please select a color--</option>
+                <option value="white">White</option>
+                <option value="#9f64ed0c">White Purple</option>
+                <option value="#906be5">Purple</option>
+                <option value="#ff66cc">Pink</option>
+                <option value="#99004d">Dark Pink</option>
+                <option value="#ff6666">Red Orange</option>
+                <option value="#ffff66">Pale Yellow</option>
+                <option value="#ccff66">Light Green</option>
+                <option value="#339966">Green</option>
+                <option value="#99ccff">Light Blue</option>
+                <option value="blue">Blue</option>
+                <option value="#003399">Dark Blue</option>
+                <option value="black">Black</option>
+            </select>
+        </div>
+
+        <br>
+
+        <div class="selector">
+            <label for="hderColor">
+                Header: 
+            </label>
+            <select id="hderColor" class="box" onchange="hdrColor()">
+                <option value="">--Please select a color--</option>
+                <option value="white">White</option>
+                <option value="#9f64ed0c">White Purple</option>
+                <option value="#906be5">Purple</option>
+                <option value="#ff66cc">Pink</option>
+                <option value="#99004d">Dark Pink</option>
+                <option value="#ff6666">Red Orange</option>
+                <option value="#ffff66">Pale Yellow</option>
+                <option value="#ccff66">Light Green</option>
+                <option value="#339966">Green</option>
+                <option value="#99ccff">Light Blue</option>
+                <option value="blue">Blue</option>
+                <option value="#003399">Dark Blue</option>
+                <option value="black">Black</option>
+            </select>
+        </div>
+
+        <br>
+
+        <div class="selector">
+            <label for="txtColor">
+                Text: 
+            </label>
+            <select id="txtColor" class="box" onchange="bdyColor()">
+                <option value="">--Please select a color--</option>
+                <option value="white">White</option>
+                <option value="#9f64ed0c">White Purple</option>
+                <option value="#906be5">Purple</option>
+                <option value="#ff66cc">Pink</option>
+                <option value="#99004d">Dark Pink</option>
+                <option value="#ff6666">Red Orange</option>
+                <option value="#ffff66">Pale Yellow</option>
+                <option value="#ccff66">Light Green</option>
+                <option value="#339966">Green</option>
+                <option value="#99ccff">Light Blue</option>
+                <option value="blue">Blue</option>
+                <option value="#003399">Dark Blue</option>
+                <option value="black">Black</option>
+            </select>
+        </div>
+        <script src="js/main.js"></script>
+    </section>
+</body>
+
+<footer>
+    <p class="copyright-text">© Copyright 2024 Sim Le Yee Beatrice</p>
+</footer>
+
+<!-- Our codes -->
+
